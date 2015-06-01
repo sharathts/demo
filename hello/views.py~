@@ -5,7 +5,7 @@ from .models import Greeting
 
 # Create your views here.
 def index(request):
-    f = open("trail", "r")
+    f = open("admin.py", "r")
     l = f.read()
     return HttpResponse(l)
 
